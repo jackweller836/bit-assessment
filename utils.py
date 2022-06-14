@@ -192,5 +192,33 @@ def qFOUR():
         time.sleep(1.5)
         qFOUR()
 
+def qFIVE():
+    print(r'''
+    Question 5: What is Python used for?
+
+    1: Automate Tasks
+    2: Make software
+    3: Build websites
+    4: All of the above
+
+    ''')
+    option=input("    ")
+    if option == "1":
+        print('\n    Wrong Answer! The correct answer is 4: All of the above\n')
+    elif option == "2":
+        print('\n    Wrong Answer! The correct answer is 4: All of the above\n')
+    elif option == "3":
+        print('\n    Wrong Answer! The correct answer is 4: All of the above\n')
+    elif option == "4":
+        print('\n    Correct Answer!\n')       
+    elif option == "hint":
+        print("\n    You don't need a hint! Please try again. (╯°□°）╯︵ ┻━┻\n")
+        time.sleep(1.5)
+        qFOUR()        
+    else:
+        print("\n    That isnt a valid answer! Please try again.")
+        time.sleep(1.5)
+        qFIVE()
+
 def end():
     print("    Thank you for playing!\n\n    Made by Jack Weller! =)")
