@@ -15,4 +15,4 @@ Follow the steps below:
 
 ## To run the code: 
 
-To run the code you need to type `python game.py` in the terminal to run the gamee
+To run the code you need to type `python game.py` in the terminal to run the game
