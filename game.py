@@ -27,6 +27,8 @@ def game():
     qTHREE()
     time.sleep(1.5)
     qFOUR()
+    time.sleep(1.5)
+    qFIVE()
     time.sleep(3)
     end()
     time.sleep(10000)
